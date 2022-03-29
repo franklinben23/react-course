@@ -8,3 +8,8 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root'),
 );
+updateState(obj) {
+  this.setState({
+    digitObj: obj,
+  });
+}

@@ -1,0 +1,76 @@
+:root {
+  --light: #eee;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira sans", sans-serif;
+}
+
+body {
+  background-color: var(--light);
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.calculator {
+  width: 30%;
+}
+
+.calculator-quote p {
+  font-size: 30px;
+}
+
+.big-quote {
+  max-width: 800px;
+  text-align: center;
+  margin: auto;
+  font-size: 22px;
+}
+
+.home-cont {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.home-cont h2 {
+  margin-bottom: 30px;
+}
+
+.return-section {
+  background-color: rgb(133, 134, 147);
+  padding: 10px;
+  color: #fff;
+  text-align: right;
+  font-size: 30px;
+  width: auto;
+  border-radius: 0.4rem;
+}
+
+.digits-elts {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.button-section {
+  padding: 20px;
+  cursor: pointer;
+  border: 1px solid #dadada;
+  border-radius: 0.4rem;
+  font-size: large;
+}
+
+.operator {
+  background-color: #ff9100fd;
+}
+
+.end {
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+}
