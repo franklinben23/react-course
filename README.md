@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+## Main Link: https://ibaslogic.com/react-tutorial-for-beginners/
+
 In the project directory, you can run:
 
 ### `npm start`
